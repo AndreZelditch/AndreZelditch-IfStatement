@@ -1,3 +1,4 @@
+import com.fasterxml.jackson.databind.deser.std.NumberDeserializers.BooleanDeserializer;
 
 public class Lab {
     /**
@@ -20,11 +21,16 @@ public class Lab {
      * @return x if bool is true. if bool is false, return y.
      */
     public int ifExample(boolean bool, int x, int y){
-        if (x > 1);
-        return x;
-     } else }  
-     return y;
-        }
         
+        if (bool==true) {
+            return x; 
+        } else {
+            return y;
+        }
+    
+
+     
     }
+        
 }
+
