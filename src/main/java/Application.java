@@ -12,7 +12,7 @@ public class Application {
         boolean bool1 = true;
         int a1 = 2;
         int b1 = 4;
-        int output1 = ifLab.ifExample(bool1, a1, b1);
+        int output1 = a
         System.out.println(output1);
 
         System.out.println("Given the values false, a=1, b=5, the lab should return 5 and it returns the following: ");
